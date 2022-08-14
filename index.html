@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>sistema de login</title>
+  </head>
+  <body>
+    <div class="caixa">
+      <div class="header">
+        <h2>Cadastro</h2>
+      </div>
+
+    <form id="form" class="form" action= "config.php" method="post" >
+        <div class="form-control">
+          <label for="username">Nome</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Digite seu nome..."
+            name ="usermane"
+          />
+          
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Digite seu email.." name = "email"/>
+          
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="endereço">Endereço</label>
+          <input
+            type="text"
+            id="endereço"
+            placeholder="Digite seu endereço..." name ="endereço"
+          />
+          
+          <small>Mensagem de erro</small>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
